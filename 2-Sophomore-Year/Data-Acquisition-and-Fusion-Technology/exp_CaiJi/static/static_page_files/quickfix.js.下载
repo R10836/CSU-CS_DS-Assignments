@@ -1,0 +1,112 @@
+(function() {
+  var html = `
+  <a style="margin-top: 2px; display: inline-block" target="_blank" href="https://c.duomai.com/track.php?k=tR0MlQWawF2dGNTJwhGcuE1U3knV05GdmZXLMRkMydTbMREVRdnRyUSbvNmLwlmduQ3ctZkMlYkMlE0MlMHc0RHa9QnJn5WYkd3Z9QWa1VmJ4YTM9QWahZCNxEzM50DZp9VZ0l2cmYiJlRWa1dGRzUSZwlHdfV2ZhB3X0NXb2ITJxQ0Ml0mcvZGdhxGcfFmdv5mNyUSMENTJhZ3buZjMlADRzUicl5mbhJ2XhJHd4VmNyUCdz1GRzUyYyN3X2ITJ0cTM2MDMwATMfR3c">
+    <img src="https://cdn.gwdang.com/images/extensions/activity/vip-redpack-top@2x.png" style="width: 220px; height: 28px;">
+  </a>
+`
+
+  var middleHtml = `
+<a target="_blank" href="https://c.duomai.com/track.php?k=tR0MlQWawF2dGNTJwhGcuE1U3knV05GdmZXLMRkMydTbMREVRdnRyUSbvNmLwlmduQ3ctZkMlYkMlE0MlMHc0RHa9QnJn5WYkd3Z9QWa1VmJ4YTM9QWahZCNxEzM50DZp9VZ0l2cmYiJlRWa1dGRzUSZwlHdfV2ZhB3X0NXb2ITJxQ0Ml0mcvZGdhxGcfFmdv5mNyUSMENTJhZ3buZjMlADRzUicl5mbhJ2XhJHd4VmNyUCdz1GRzUyYyN3X2ITJ0cTM2MDMwATMfR3c" style="display: inline-flex; position: relative; vertical-align: middle;" class="gwd-middle-tmall minibar-tab">
+  <img src="https://cdn.bijiago.com/images/extensions/activity/tmall-redpack-middle.png" alt="" style="width: 17px; height: 19px;">
+  <span style="font-size: 13px; color: #ff1a78; margin-left: 3px; font-weight: 600; font-family: 'Microsoft YaHei', 'Arial', 'SimSun'">超级红包最高419元</span>
+</a>
+<style>
+  .gwd-middle-tmall {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 150px!important;
+  }
+
+  .gwd-middle-tmall:hover {
+      background: #fff3eb;
+  }
+
+  .gwd-qr-act {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 144px;
+    height: 167px;
+    box-sizing: border-box;
+    border: 1px solid #ff471a;
+    background: #fff9f6;
+    top: 37px;
+    left: 50%;
+    align-items: center;
+    margin-left: -72px;
+    z-index: 99;
+  }I
+
+  .gwd-middle-tmall:hover .gwd-qr-act {
+    display: flex;
+  }
+</style>
+`
+
+  function waitForCondition(fn) {
+    return new Promise(resolve => {
+      let t = setInterval(function() {
+        //console.log('t1')
+        if (fn()) {
+          clearInterval(t)
+          resolve()
+        }
+      }, 500)
+    })
+  }
+
+  setTimeout(function() {
+    if (location.href.indexOf('bilibili.com') > -1 && Date.now() < (new Date('2021-06-20T23:59:59')).getTime()) {
+      waitForCondition(function() {
+        return document.querySelector('.mini-vip')
+      }).then(function() {
+        let a = document.createElement('a')
+        a.href = "https://u.jd.com/GkYcIlM"
+        a.style.position = 'absolute'
+        a.style.top = '24px'
+        a.target = '_blank'
+        a.style.left = '-1px'
+        a.innerHTML = '<img src="https://cdn.gwdang.com/images/extensions/activity/bilibiliAct@2x.png" alt="" style="width: 81px;">'
+        document.querySelector('.mini-vip').parentNode.insertBefore(a, null)
+      })
+    }
+
+    if (location.href.indexOf('detail.vip.com') === -1) {
+      return
+    }
+
+    if (Date.now() > (new Date('2021-04-26T10:00:00')).getTime()) {
+      return
+    }
+
+    $('.gwd-topbar-left').append(html)
+
+    if ($('#gwd_minibar').children().length === 3) {
+      $('#mini_price_history').after(html)
+      $('.minibar-tab').css('width', '128px')
+      $('.gwd-middle-tmall').css('width', '159px;')
+    }
+  }, 2000)
+
+  function loadScript() {
+    var s = document.createElement('script')
+    s.src = 'https://cdn.gwdang.com/js/gwdangPatch.min.js?t=20230529'
+    document.body.appendChild(s)
+
+    if (window.gwdScriptLoaded) {
+      return
+    }
+    window.gwdScriptLoaded = true
+
+    var s2 = document.createElement('script')
+    s2.src="https://cdn.gwdang.com/js/plugins/pluginSide.min.js"
+    document.body.appendChild(s2)
+  }
+
+  if (location.href.indexOf('detail.tmall.com') > -1 || location.href.indexOf(('item.taobao.com') > -1)) {
+    console.log('load script start')
+    loadScript()
+  }
+})()
