@@ -4,7 +4,7 @@
 
 Hi! 👋 Welcome to my repository!
 
-This repository contains a collection of coursework assignments and lab code that I authored during my studies at Central South University (CSU). Here, you'll find a comprehensive record of my academic journey in both computer science and data science fields. If you find it useful or interesting, I'd greatly appreciate it if you could ==**star**== ⭐️ this repository.
+This repository contains a collection of coursework assignments and lab code that I authored during my studies at Central South University (CSU). Here, you'll find a comprehensive record of my academic journey in both computer science and data science fields. If you find it useful or interesting, I'd greatly appreciate it if you could **star** ⭐️ this repository.
 
 ## About Me
 
