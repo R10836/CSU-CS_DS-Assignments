@@ -2,9 +2,9 @@
 
 🎉🎉🎉
 
-Hi! Welcome to my repository! 👋👋👋
+Hi! 👋 Welcome to my repository!
 
-This repository contains a collection of coursework assignments and lab code that I authored during my studies at Central South University (CSU). Here, you'll find a comprehensive record of my academic journey in both computer science and data science fields.
+This repository contains a collection of coursework assignments and lab code that I authored during my studies at Central South University (CSU). Here, you'll find a comprehensive record of my academic journey in both computer science and data science fields. If you find it useful or interesting, I'd greatly appreciate it if you could ==**star**== ⭐️ this repository.
 
 ## About Me
 
@@ -14,10 +14,10 @@ I am a dedicated and passionate student currently pursuing my degree in Data Sci
 
 The repository is organized according to the academic years:
 
-- **1-Freshman-Year**
-- **2-Sophomore-Year**
-- **3-Junior-Year**
-- **4-Senior-Year**
+- 📁 **1-Freshman-Year**
+- 📁 **2-Sophomore-Year**
+- 📁 **3-Junior-Year**
+- 📁 **4-Senior-Year**
 
 Each directory further contains subdirectories corresponding to specific courses or modules, providing a systematic breakdown of my academic coursework and practical experience.
 
@@ -34,8 +34,8 @@ Feel free to explore the contents of this repository to gain insights into my ac
 If you have any inquiries or would like to connect with me, please feel free to reach out:
 
 - **Email:** rushawn818@gmail.com
-- **LinkedIn:** 
+- **LinkedIn:**
 
-Thank you for visiting my repository!
+Thank you 💕 for visiting my repository!
 
 🎉🎉🎉
