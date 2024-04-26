@@ -29,7 +29,7 @@ Each directory further contains subdirectories corresponding to specific courses
 
 ## Privacy Notice
 
-Due to the sensitive nature of certain course designs, I have chosen not to upload them at this time. However, I plan to gradually upload these codes over time. Therefore, please ensure again that you have **starred** ⭐️ this repository to receive any updates.
+Due to the sensitive nature of certain course designs, I have chosen **not** to upload them at this time. However, it's entirely possible that I will gradually upload the remaining parts over time. Therefore, please ensure that you have **starred** ⭐️ this repository to receive any updates.
 ﻿
 ## Contact Information
 
