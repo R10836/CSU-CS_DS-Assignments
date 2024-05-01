@@ -2,6 +2,10 @@
 
 # CSU CS/DS Assignments Repository
 
+> Life is too short to learn this language, that language, and the other language. And then to make matters worse, a lot of the languages you'd learn are pretty useless, and the useful ones you'd learn wouldn't teach you much. So if you're going to have to learn one, you might as well learn Python.
+> 
+> —— Hackers and Painters, 12 : 1
+
 Hi! 👋 Welcome to my repository!
 
 This repository contains a collection of coursework assignments and lab code that I authored during my studies at Central South University (CSU). Here, you'll find a comprehensive record of my academic journey in both computer science and data science fields. If you find it useful or interesting, I'd greatly appreciate it if you could **star** ⭐️ this repository.
