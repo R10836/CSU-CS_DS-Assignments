@@ -1,9 +1,5 @@
 🎉🎉🎉
 
-> Life is too short to learn this language, that language, and the other language. And then to make matters worse, a lot of the languages you'd learn are pretty useless, and the useful ones you'd learn wouldn't teach you much. So if you're going to have to learn one, you might as well learn Python.
-> 
-> —— Hackers and Painters, 12 : 1
-
 # CSU CS/DS Assignments Repository
 
 Hi! 👋 Welcome to my repository!
