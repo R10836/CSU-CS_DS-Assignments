@@ -23,7 +23,6 @@ The repository is organized according to the academic years:
 - 📁 **1-Freshman-Year**
 - 📁 **2-Sophomore-Year**
 - 📁 **3-Junior-Year**
-- 📁 **4-Senior-Year**
 
 Each directory further contains subdirectories corresponding to specific courses or modules, providing a systematic breakdown of my academic coursework and practical experience.
 
