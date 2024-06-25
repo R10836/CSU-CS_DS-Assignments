@@ -36,6 +36,6 @@ If you have any inquiries or would like to connect with me, please feel free to 
 
 - **Email:** rushawn818@gmail.com
 
-Thank you 💕 for visiting my repository!
+Thank you 💕 for your visiting!
 
 🎉🎉🎉
