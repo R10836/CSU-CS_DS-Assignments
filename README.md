@@ -34,7 +34,7 @@ Due to the sensitive nature of certain course designs, I have chosen **not** to 
 
 If you have any inquiries or would like to connect with me, please feel free to reach out:
 
-- **Email:** rushawn818@gmail.com
+- **Email:**
 
 Thank you 💕 for your visiting!
 
