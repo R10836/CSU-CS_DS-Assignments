@@ -16,25 +16,9 @@ This repository serves as a testament to my dedication to learning and academic 
 
 Additionally, I welcome any feedback or constructive criticism on my work.
 
-## Repository Structure
-
-The repository is organized according to the academic years:
-﻿
-- 📁 **1-Freshman-Year**
-- 📁 **2-Sophomore-Year**
-- 📁 **3-Junior-Year**
-
-Each directory further contains subdirectories corresponding to specific courses or modules, providing a systematic breakdown of my academic coursework and practical experience.
-
 ## Privacy Notice
 
 Due to the sensitive nature of certain course designs, I have chosen **not** to upload them at this time. However, it's entirely possible that I will gradually upload the remaining parts over time. So please ensure again that you have **starred** ⭐️ this repository to receive any updates.
-﻿
-## Contact Information
-
-If you have any inquiries or would like to connect with me, please feel free to reach out:
-
-- **Email:**
 
 Thank you 💕 for your visiting!
 
