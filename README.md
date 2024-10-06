@@ -8,7 +8,7 @@ This repository contains a collection of coursework assignments and lab code tha
 ﻿
 ## About Me
 
-I am a dedicated and passionate student currently pursuing my degree in Data Science and Big Data Technology at Central South University's School of Computer Science and Engineering. Throughout my academic career, I have been deeply engaged in exploring various aspects of computer science and data science, continuously seeking opportunities to expand my knowledge and skills.
+I am a dedicated and passionate student currently pursuing my degree in Data Science and Big Data Technology at Central South University's School of Computer Science and Engineering.
 
 ## Purpose
 
