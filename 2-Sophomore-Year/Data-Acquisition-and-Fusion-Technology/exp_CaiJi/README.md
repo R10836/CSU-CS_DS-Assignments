@@ -1010,7 +1010,6 @@ def analyze_correlation_price(data):
 """
 大数据采集与融合技术实验
 数据采集和数据存储
-大数据2103 茹湘原 8204193010
 """
 
 
@@ -1187,7 +1186,6 @@ for area in districts.keys():
 """
 大数据采集与融合技术实验
 数据分析和数据可视化
-大数据2103 茹湘原 8204193010
 """
 
 import warnings
