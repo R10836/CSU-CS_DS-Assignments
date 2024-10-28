@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="/static/search.css" />
+</head>
+
+<body>
+    <div class="s_form">
+        <form id="form" action="/s/" method="post">
+            <span class="bg_ipt">
+                <input id="search_area" name="wd"  value="{{word}}">
+            </span>
+            <span class="bg_btn">
+                <input id="search_btn" value="搜索" type="submit" >
+            </span>
+        </form>
+    </div>
+    {% block search%}
+    {% endblock %}
+    <script type="text/javascript" src="/static/search.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{% extends 'home.html' %}
+{% block search%}
+<div class="content">
+    {% for result in results%}
+    <div class="c-result">
+        <div class="c-container">
+            <h3 class="c-title"><a href="{{result.0}}" target="_blank">{{result.1}}</a></h3>
+            <div class="c-url">
+                <a href="{{result.0}}" target="_blank">{{result.0}}</a>
+            </div>
+        </div>
+    </div>
+    <br />
+    {% endfor %}
+</div>
+{% endblock%}

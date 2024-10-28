@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>XSS演示搜索</title>
+</head>
+<body>
+<h2>搜索页面</h2>
+<form action="target_page.html" method="get">
+  <label for="script">请输入脚本：</label>
+  <input type="text" id="script" name="script">
+  <input type="submit" value="搜索">
+</form>
+</body>
+</html>

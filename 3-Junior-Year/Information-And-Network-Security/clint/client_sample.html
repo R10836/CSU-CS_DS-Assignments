@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>反射型XSS演示</title>
+</head>
+<body>
+    <h1>反射型XSS演示</h1>
+    <p>在下面的输入框中输入你的名字，并点击"提交"按钮查看结果：</p>
+    <form id="xss-form">
+        <input type="text" id="name-input" placeholder="输入你的名字">
+        <button type="submit">提交</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        // 获取表单元素和结果显示元素
+        var form = document.getElementById("xss-form");
+        var nameInput = document.getElementById("name-input");
+        var resultDiv = document.getElementById("result");
+
+        // 监听表单提交事件
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // 阻止表单默认提交行为
+
+            var name = nameInput.value; // 获取用户输入的名字
+            var encodedName = encodeURIComponent(name);
+
+            // 构造包含恶意脚本的URL，并显示结果
+            var maliciousUrl = "https://www.baidu.com/s?ie=UTF-8&wd=" + encodedName;
+            resultDiv.innerHTML = "欢迎，" + name + "！<br>请打开左侧链接领取一百万：<a href='" + maliciousUrl + "'>" + maliciousUrl + "</a>";
+        });
+    </script>
+</body>
+</html>

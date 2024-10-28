@@ -1,0 +1,10 @@
+configparser
+jieba
+sqlite3
+json
+numpy
+pandas
+scrapy
+django
+pickle
+math

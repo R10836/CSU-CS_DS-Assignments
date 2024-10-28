@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>XSS演示目标页面</title>
+</head>
+<body>
+<h2>测试页面</h2>
+<div id="display"></div>
+
+<script>
+// 解析 URL 参数
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+};
+
+// 获取名为 "script" 的参数并执行
+var script = getUrlParameter('script');
+if (script !== '') {
+    eval(script);
+}
+</script>
+
+</body>
+</html>

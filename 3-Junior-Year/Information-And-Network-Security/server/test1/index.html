@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>目标网站</title>
+</head>
+<body>
+<h1>欢迎访问目标网站</h1>
+<p>请输入内容：</p>
+<form id="xssForm">
+  <input type="text" id="content" name="content">
+  <button type="submit">提交</button>
+</form>
+<div id="display"></div>
+
+<script>
+document.getElementById('xssForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  var content = document.getElementById('content').value;
+  displayContent(content);
+});
+
+function displayContent(content) {
+  document.getElementById('display').innerHTML = `<p>您输入的内容是： ${content}</p>`;
+}
+</script>
+
+</body>
+</html>
