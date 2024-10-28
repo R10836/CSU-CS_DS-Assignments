@@ -14,7 +14,7 @@ This repository contains a collection of coursework assignments  that I authored
  
 ## About Me
 
-I completed my undergraduate degree in Data Science and Big Data Technology at Central South University's School of Computer Science and Engineering
+I completed my undergraduate degree in Data Science and Big Data Technology at Central South University's School of Computer Science and Engineering.
 
 
 
